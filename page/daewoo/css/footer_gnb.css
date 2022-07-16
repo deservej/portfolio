@@ -1,0 +1,460 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(module.css);
+@import url(footer.css);
+
+html, body  {height:100%;}
+body  {
+  font-family:"Noto Sans CJK KR", sans-serif;
+  color:#111;
+  letter-spacing:-1px;
+  font-weight:300;
+}
+
+/* =================================
+        COMMONS Text S (Mobile)
+   ================================= */
+.tit {
+  padding:70px 0 35px 0;
+  font-size:22px;
+  color:#1a4975;
+  font-family:700;
+  text-align:center;
+}
+
+
+/* ============================
+      MAIN BANNER S (Mobile)
+   ============================ */
+
+.main_bnr  {
+  width:100%;
+  height:420px;
+  position:relative;
+  overflow:hidden;
+}
+
+.bnr_img  { 
+  width:7000px;
+  position:absolute;
+}
+.bnr_img li  {float:left;}
+.bnr_img li img  {width:46%;}
+
+/* ============================
+      MAIN BANNER S (PC)
+   ============================ */
+@media (min-width:768px)  {
+  .main_bnr  {border:1px solid red;
+    width:100%;
+    height:920px;
+    position:relative;
+    overflow:hidden;
+  }
+  .bnr_img  { 
+    width:7000px;
+    position:absolute;
+  }
+  .bnr_img li img  {width:100%;}
+}
+
+
+/*=== Bnr TEXT S (Mobile) ===*/
+.bnr_text {opacity:.5;
+  position:absolute;
+  top:150px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  text-align:center;
+  color:#fff;
+}
+.bnr_sub  {font-size:20px;}
+.bnr_tit  {
+  font-size:35px;
+  padding:10px 0 24px 0;
+}
+.bnr_txt  {display:none;}
+.bnr_link {
+  font-size:14px;
+  border:1px solid #fff;
+  padding:0px 24px 4px 24px;
+}
+.bnr_link:hover  {
+  background-color:rgba(250,250,250,0.4);
+}
+
+/*=== Bnr TEXT S (PC) ===*/
+@media (min-width:768px) {
+  .bnr_text {
+    opacity:.1;
+    position:absolute;
+    width:1120px;
+    top:340px;
+    text-align:left;
+    color:#fff;
+  }
+  .bnr_sub  {font-size:20px;}
+  .bnr_tit  {
+    font-size:55px;
+    line-height:60px;
+    padding:10px 0 24px 0;
+  }
+  .bnr_txt  {
+    display:block;
+    font-size:18px;
+    line-height:24px;
+    margin-bottom:40px;
+  }
+  .bnr_link {
+    font-size:14px;
+    border:1px solid #fff;
+    padding:0px 24px 4px 24px;
+  }
+  .bnr_link:hover  {
+    background-color:rgba(250,250,250,0.4);
+  }
+}
+
+
+/*=== Bnr BTN S (Mobile) ===*/
+.main_slide_btn {
+  position:absolute;
+  bottom:90px;
+  width:90%;
+  left:0;
+  right:0;
+  margin-right:auto;
+  margin-left:auto;
+}
+.main_slide_btn ul  {text-align:center;}
+.main_slide_btn li  {display:inline-block;}
+.main_slide_btn li:after  {
+  content:"";
+  display:inline-block;
+  padding:2px 10px;
+  border:1px solid #fff;
+}
+.main_slide_btn li:nth-child(1):after  {
+  background-color:rgba(250,250,250,1);
+}
+.main_slide_btn span  {display:inline-block; display:none;}
+
+
+/*=== Bnr BTN S (PC) ===*/
+@media (min-width:768px)  {
+  .main_slide_btn {
+    position:absolute;
+    max-width:1920px;
+    margin:0 auto;
+    top:380px;
+    right:0;
+  }
+  .main_slide_btn ul  {text-align:right;}
+  .main_slide_btn li  {
+    display:block;
+    margin-bottom:20px;
+  }
+  .main_slide_btn li:after  {
+    content:"";
+    display:inline-block;
+    padding:16px 2px;
+    border:1px solid #fff;
+  }
+  .main_slide_btn li:nth-child(1):after  {
+    background-color:rgba(250,250,250,1);
+  }
+  .main_slide_btn span  {
+    display:inline-block;
+    color:#fff;
+    font-size:16px;
+    line-height:18px;
+  }
+}
+
+
+/* ============================
+       BUSINESS S (Mobile)
+   ============================ */
+.business img {width:100%;}
+.business {}
+.business ul li {
+  padding:0;
+  text-align:center;
+}
+.business .busi_img  {
+  display:inline-block;
+  overflow:hidden;
+}
+
+
+/*=== BUSINESS S (PC) ===*/
+@media (min-width:768px) {
+  .busi_tit {margin:60px 0 35px 0;}
+  .business ul li {
+    padding:0 10px;
+    text-align:center;
+  }
+  .business .busi_img  {
+    display:inline-block;
+    height:160px;
+  }
+}
+
+
+/*=== Business Text S (Mobile) ===*/
+.busi_wrap_txt  {margin:20px 0 0 0;}
+.busi_sub {
+  font-size:18px;
+  font-family:700;
+}
+.busi_en  {
+  font-size:14px;
+  font-family:600;
+  color:#777;
+  display:inline-block;
+  padding:10px 0 15px 0; 
+}
+.busi_txt {
+  font-size:16px;
+  font-weight:300;
+  line-height:24px;
+}
+
+.busi_link  {
+  display:inline-block;
+  font-size:12px;
+  font-weight:800;
+  padding-top:50px;
+}
+
+/*=== Business Text S (PC) ===*/
+@media (min-width:768px) {
+  .busi_wrap_txt  {height:160px;}
+  .busi_link  {
+    display:inline-block;    
+    padding:0 0 140px 0;
+  }
+  
+}
+
+
+
+/* ============================
+     INTRODUCTION S (Mobile)
+   ============================ */
+.intro_bg {
+  background:url(../imgs/intro_bg.jpg)no-repeat center top;
+  background-size:cover;
+  overflow:hidden;
+  padding-bottom:30px;
+}
+.intro  {
+  max-width:930px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.intro_img  {padding-top:20px;}
+.intro_img img  {width:68%;}
+
+.intro_text  {margin-top:40px;}
+.intro_tit  {
+  font-size:20px;
+  font-weight:600;
+  color:#1a4975;
+}
+.intro_subtit {
+  font-size:16px;
+  font-weight:700;
+  color:#1a4975;
+  padding:30px 0 10px 0;
+}
+.intro_txt  {
+  font-size:16px;
+  line-height:23px;
+}
+
+/*=== INTRODUCTION S (PC) ===*/
+@media (min-width:768px)  {
+  .intro_bg {padding-bottom:130px;}
+  .intro  {
+    max-width:1120px;
+    text-align:inherit;
+  }
+  .intro_img  {
+    display:block;
+    float:right;
+    padding-top:120px;
+  }
+  .intro_img img  {width:100%;}
+  .intro_text  {margin:120px 0 0 95px;}
+  .intro_tit  {margin-top:50px;}
+  .intro_text_tit  {
+    font-size:40px;
+    line-height:46px;
+    font-weight:600;
+    color:#1a4975;
+  }
+  .intro_subtit {
+    font-size:20px;
+    font-weight:700;
+    color:#1a4975;
+    padding:50px 0 15px 0;
+  }
+  .intro_txt  {
+    font-size:18px;    
+    line-height:28px;
+  }
+}
+
+
+
+
+/* ============================
+     GALLERY S (Mobile)
+   ============================ */
+.gallery img {width:100%;}
+.gall_left {display:block;}
+.gall_bottom {}
+
+
+/*=== GALLERY S (PC)===*/
+@media (min-width:768px)  {
+  .gall_tit {margin:60px 0 25px 0;}
+  .gall_right li  {
+    margin-bottom:20px;
+    overflow:hidden;
+  }
+}
+
+
+
+
+
+/* =================================
+     DAEWOO 3BULIDING S (Mobile)
+   ================================= */
+.buliding {
+  width:100%;
+  margin-top:50px;
+  text-align:center;
+}
+.buliding li  {
+  padding:0;
+  height:300px;
+}
+.buliding li a {
+  display:block;
+  height:300px;
+  color:#fff;
+}
+
+.buliding li:nth-child(1) a {
+  background:url(../imgs/buliding_1.jpg)no-repeat center;
+  background-size:cover;
+}
+.buliding li:nth-child(2) a {
+  background:url(../imgs/buliding_2.jpg)no-repeat center;
+  background-size:cover;
+}
+.buliding li:nth-child(3) a {
+  background:url(../imgs/buliding_3.jpg)no-repeat center;
+  background-size:cover;
+}
+
+.buliding li:hover .table  {
+  background-color:rgba(0,0,0,0.5);
+  -webkit-transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+       -o-transition:all .3s ease-in-out;
+          transition:all .3s ease-in-out;
+}
+.table  {
+  display:table;
+  width:100%;
+  height:100%;
+  -webkit-transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+       -o-transition:all .3s ease-in-out;
+          transition:all .3s ease-in-out;
+}
+.cell {
+  display:table-cell;
+  vertical-align:middle;
+  font-size:18px;
+  line-height:30px;
+  text-shadow:2px 2px 5px #111; 
+}
+
+
+/* ============================
+        FOOTER S (Mobile)
+   ============================ */
+
+.footer_bg  {
+  background:url(../imgs/footer_bg.jpg)no-repeat center;
+  background-size:cover;
+}
+.footer_gnb {display:none;}
+.footer_logo  {
+  display:inline-block;
+  width:124px;
+}
+.footer_logo img  {width:100%;}
+.footer_text  {
+  font-size:14px;
+  line-height:18px;
+  margin-top:20px;
+}
+.ft_copy  {
+  font-size:10px;
+  letter-spacing:0.6px;
+  line-height:14px;
+  padding-top:10px;
+}
+
+/*====  Footer S (PC)  =====*/
+@media (min-width:768px)  {
+  .footer_gnb {
+    display:block;
+    text-align:center;
+  }
+  .footer_gnb  {margin:170px 0 30px 0;}
+  .footer_gnb ul li {
+    float:left;
+    width:23.33%;
+  }
+  .footer_gnb li:first-child,
+  .footer_gnb li:last-child {width:15%;}
+  .footer_gnb li:first-child  {text-align:left;}
+  .footer_gnb li:last-child  {text-align:right;}
+  
+  .footer_bottom  {
+    border-top:1px solid #1a4975;
+    padding-bottom:160px;
+  }
+  .footer_text  {
+    display:inline-block;
+    margin:40px 0 0 60px;
+    float:left;
+  }
+  .footer_logo  {
+    display:inline-block;
+    width:104px;
+    float:left;
+    margin-top:40px;
+  }
+  .sns_imgs{float:right;}
+  .sns_imgs li  {
+    float:left;
+    margin:50px 0 0 30px;
+  }
+  .sns_imgs li a  {display:inline-block;}
+  .sns_imgs li img  {height:16px;}
+}
+
+
+

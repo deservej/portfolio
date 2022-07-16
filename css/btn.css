@@ -1,0 +1,33 @@
+/*======== [Header S] ==========*/
+/* 편의를 위해 임시로 버튼에 border값 추가 */
+.gnb_btn {
+  position:relative; 
+  float:right; 
+  width:60px; 
+  height:60px; 
+  border:3px solid #000; 
+  -webkit-box-sizing:border-box; 
+  box-sizing:border-box; 
+  background:#fff;}
+.gnb_btn:before, 
+.gnb_btn:after {
+  display:block; 
+  content:""; 
+  position:absolute; 
+  left:50%; 
+  top:50%; 
+  width:36px; 
+  height:3px; 
+  background:#000; 
+  -webkit-transform:translateX(-50%); transform:translateX(-50%); 
+  -webkit-transition:all 0.8s cubic-bezier(0.23, 1, 0.32, 1); 
+  transition:all 0.8s cubic-bezier(0.23, 1, 0.32, 1);}
+.gnb_btn:before {margin-top:-8px;}
+.gnb_btn:after {margin-top:4px;}
+.gnb_btn.active:before {
+  margin-top:-2px; 
+  -webkit-transform:translateX(-50%) rotate(45deg) translateZ(0); 
+  transform:translateX(-50%) rotate(45deg) translateZ(0);}
+.gnb_btn.active:after {margin-top:-2px; 
+  -webkit-transform:translateX(-50%) rotate(-45deg) translateZ(0); 
+  transform:translateX(-50%) rotate(-45deg) translateZ(0);}

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>Detail Page</title>
+  <link rel="stylesheet" href="../css/module.css">
+  <link rel="stylesheet" href="../dist/css/lightbox.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="../js/header.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+  <style>
+    .page .grid_item {
+      width:50%;
+      box-sizing: border-box;
+      padding: 0 10px;
+      margin:20px 0;
+    }
+    @media (min-width:768px)  {
+      .page .grid_item {width:33.33%;}
+    }  
+    .d_page-txt {
+      color:#fff;
+      margin:25px 0;
+      font-size:1.6rem;
+    }
+    .d_page-txt h3  {font-size:2.0rem;}
+    .d_page-txt span  {
+      color:#999;
+      display:inline-block;
+      margin:5px 0 10px 0;
+    }
+    .d_page-txt p  {
+      line-height:2.3rem;
+      font-weight:300;
+    }
+    .d-page-line  {border:1px solid #555;}
+  </style>
+  
+  
+</head>
+  
+<body>
+  <div id="header"></div>
+  <div class="wrapper">
+    <div class="gallery page">
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_1.jpg">
+          <img src="../images/page/ms_1.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Visual Page</span>
+            <p>아보카도 오일 앰플 패키지<br>
+            패키지, 촬영 및 합성 리터치</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_2.jpg">
+          <img src="../images/page/ms_2.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Visual Page</span>
+            <p>V12 라인 패키지<br>
+            패키지, 촬영 및 합성 리터치</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_3.jpg">
+          <img src="../images/page/ms_3.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Visual Page</span>
+            <p>퍼퓸바디로션 패키지<br>
+            패키지, 촬영 및 합성 리터치</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_4.jpg">
+          <img src="../images/page/ms_4.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Visual Page</span>
+            <p>아이스노우 패키지 <br>
+            패키지, 촬영 및 합성 리터치</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_5.jpg">
+          <img src="../images/page/ms_5.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Event Page</span>
+            <p>V12 필링패드 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_6.jpg">
+          <img src="../images/page/ms_6.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Event Page</span>
+            <p>추석 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 Stella's Scent" href="../images/page/ms_7.jpg">
+          <img src="../images/page/ms_7.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Stella's Scent</h3>
+            <span>Event Page</span>
+            <p>SNS 리뷰 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 SKINAZ" href="../images/page/sk_1.jpg">
+          <img src="../images/page/sk_1.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Skinaz</h3>
+            <span>Event Page</span>
+            <p>'뱀파이어 탐정' 협찬 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 SKINAZ" href="../images/page/sk_2.jpg">
+          <img src="../images/page/sk_2.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Skinaz</h3>
+            <span>Event Page</span>
+            <p>'뱀파이어 탐정' 협찬 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 SKINAZ" href="../images/page/sk_3.jpg">
+          <img src="../images/page/sk_3.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Skinaz</h3>
+            <span>Event Page</span>
+            <p>'뱀파이어 탐정' 협찬 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_1.jpg">
+          <img src="../images/page/de_1.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>AQ 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_2.jpg">
+          <img src="../images/page/de_2.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>모이스처 리포솜 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_3.jpg">
+          <img src="../images/page/de_3.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>셀제니 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_4.jpg">
+          <img src="../images/page/de_4.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>AQMW 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_5.jpg">
+          <img src="../images/page/de_5.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>화이트로지스트 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_6.jpg">
+          <img src="../images/page/de_6.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>피토튠 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_7.jpg">
+          <img src="../images/page/de_7.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>AQMW 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_8.jpg">
+          <img src="../images/page/de_8.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Detail Page</span>
+            <p>라꾸뛰르 라인 제품 상세페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_9.jpg">
+          <img src="../images/page/de_9.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_10.jpg">
+          <img src="../images/page/de_10.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_11.jpg">
+          <img src="../images/page/de_11.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_12.jpg">
+          <img src="../images/page/de_12.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_13.jpg">
+          <img src="../images/page/de_13.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_14.jpg">
+          <img src="../images/page/de_14.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_15.jpg">
+          <img src="../images/page/de_15.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_16.jpg">
+          <img src="../images/page/de_16.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>신제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_17.jpg">
+          <img src="../images/page/de_17.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>프로모션 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 DECORTE" href="../images/page/de_18.jpg">
+          <img src="../images/page/de_18.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>DECORTE</h3>
+            <span>Event Page</span>
+            <p>제품 이벤트</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="신발 브랜드 SODA" href="../images/page/page_1.jpg">
+          <img src="../images/page/page_1.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>SoDa</h3>
+            <span>Brand Page</span>
+            <p>소다 브랜드 페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="신발 브랜드 SODA" href="../images/page/page_2.jpg">
+          <img src="../images/page/page_2.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>SoDa</h3>
+            <span>Detail Page</span>
+            <p>소다 제품 상세 페이지</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="캐주얼 아웃도어 브랜드 NAPAPIRI" href="../images/page/page_3.jpg">
+          <img src="../images/page/page_3.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>NAPAPIRI</h3>
+            <span>Detail Page</span>
+            <p>나파피리 모집 공고</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="뷰티 브랜드 laura mercier" href="../images/page/page_4.jpg">
+          <img src="../images/page/page_4.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>laura mercier</h3>
+            <span>Event Page</span>
+            <p>로라메르시에 댓글 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="캐주얼 아웃도어 브랜드 NAPAPIRI" href="../images/page/page_5.jpg">
+          <img src="../images/page/page_5.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>NAPAPIRI</h3>
+            <span>Event Page</span>
+            <p>나파피리 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="캐주얼 아웃도어 브랜드 NAPAPIRI" href="../images/page/page_6.jpg">
+          <img src="../images/page/page_6.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>NAPAPIRI</h3>
+            <span>Event Page</span>
+            <p>나파피리 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="캐주얼 아웃도어 브랜드 NAPAPIRI" href="../images/page/page_7.jpg">
+          <img src="../images/page/page_7.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>NAPAPIRI</h3>
+            <span>Event Page</span>
+            <p>나파피리 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="시계 브랜드 LOUIS QUATORZE" href="../images/page/page_8.jpg">
+          <img src="../images/page/page_8.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>LOUIS QUATORZE</h3>
+            <span>Event Page</span>
+            <p>루이 까또즈 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="캐주얼 아웃도어 브랜드 NAPAPIRI" href="../images/page/page_9.jpg">
+          <img src="../images/page/page_9.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>Archimedes</h3>
+            <span>Event Page</span>
+            <p>아르키메데스 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="패션 브랜드 SISLEY" href="../images/page/page_10.jpg">
+          <img src="../images/page/page_10.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>SISLEY</h3>
+            <span>Event Page</span>
+            <p>시슬리 이벤트</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="시계 편집샵 Gallery O’clock" href="../images/page/page_11.jpg">
+          <img src="../images/page/page_11.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>VERSUS</h3>
+            <span>Event Page</span>
+            <p>베르수스 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="교복 브랜드 elite" href="../images/page/page_12.jpg">
+          <img src="../images/page/page_12.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>elite</h3>
+            <span>Event Page</span>
+            <p>엘리트 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="교복 브랜드 elite" href="../images/page/page_13.jpg">
+          <img src="../images/page/page_13.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>elite</h3>
+            <span>Event Page</span>
+            <p>엘리트 이벤트</p>
+          </div>
+        </a>
+      </div>
+      <div class="grid_item">
+        <a class="d-page-line" data-lightbox="ex" target="_blank" title="교복 브랜드 elite" href="../images/page/page_14.jpg">
+          <img src="../images/page/page_14.jpg" alt="">
+          <div class="d_page-txt">
+            <h3>elite</h3>
+            <span>Event Page</span>
+            <p>엘리트 이벤트</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- masonry 로딩 -->
+  <script src="../js/masonry.pkgd.min.js"></script>
+  <!-- masonry 이미지 로딩 겹침 -->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script>
+    $('.gallery').masonry({
+      itemSelector: '.grid_item'
+     // columnWidth: 200,
+     // gutter: 10,
+     // horizontalOrder: true,
+      // originLeft: false //왼쪽부터 정렬 
+      // originTop: false //바닥부터
+      // transitionDuration: '0.2s' //위치 전환 시간
+    });
+  </script>
+  <!-- masonry [항상] 이미지 로르 확인후 트리거 -->
+  <script>
+   $('.gallery').imagesLoaded().always( function( instance ) {
+    console.log('ALWAYS - all images have been loaded');
+    });
+  </script>
+  <!-- https://www.npmjs.com/package/imagesloaded -->
+  
+  <!-- masonry Masonry 이미지 로딩후 한번더 실행 -->
+  <script>
+    var container = document.querySelector('.gallery');
+     var msnry = new Masonry( container, {
+       itemSelector: '.grid_item'
+     });
+
+     imagesLoaded( container, function() {
+       msnry = new Masonry( container, {
+       itemSelector: '.grid_item'
+          });
+     });
+  </script>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,346 @@
+
+body    {
+  font-family:"Noto Sans CJK KR",sans-serif;
+}
+
+/*body div	{border:5px solid red;}*/
+
+/*/>>>>>>>  HEADER SECTION S />>>>>>>>*/
+
+.gnb_header {
+  width:100%;
+  background-color:black;
+}
+
+.gnb_top ul {
+  float:right;
+  margin:10px 0 50px 0;
+}
+.gnb_top li {
+    float:left;
+    margin-right:20px;
+}
+.gnb_top a  {
+    color:#fff;
+    font-size:14px;
+}
+
+.gnb_logo {float:left;}
+.gnb_main img {width:155px;}
+.gnb_main ul   {
+  float:right;
+  margin:20px 0 20px 0;
+}
+.gnb_main li   {
+    float:left;
+    margin-right:40px;
+}
+.gnb_main li a   {
+    color:#fff;
+    font-size:16px;
+}
+
+.gnb_top li:last-child,
+.gnb_main li:last-child  {
+    margin-right:0;
+}
+
+/*/>>>>>>>  AC_BACK PACK CONTENT S />>>>>>>>*/
+.main_content {margin:150px 0 40px 0; }
+.main_big {margin-right:120px;}
+.main_big a   {
+  position:relative;         
+}
+.main_big img {
+  position:relative;
+  width:100%;
+  border:6px solid #ff9bb7;
+  box-sizing:border-box;
+  z-index:999;
+}
+.big_line:after {
+  content:"";
+  display:block;
+  border:2px solid #ff9bb7;
+	box-sizing:border-box;
+  width:100%;
+  height:90%;
+  position:absolute;
+  top:50px;
+  left:10px;
+}
+/*/>>>>>>>  TEXT S />>>>>>>>*/
+.main_content .main_text  {padding:0;}
+.main_text  {}
+.main_text h1 {
+  font-size:30px;
+  font-weight:800;
+  margin-top:50px;
+}
+.sub_price  {
+  font-size:22px;
+  font-weight:800;
+  margin:20px 0 40px 0;
+}
+.sub_txt  {
+  font-size:16px;
+  line-height:24px;
+}
+
+/*/>>>>>>>  COLOR & SIZE BTN S />>>>>>>>*/
+legend  {display:none;}
+select  {
+  font-size:16px;
+  font-weight:600;
+  color:#1b1b1b;
+}
+.color_btn select  {
+  width:155px;
+  height:40px;
+  border:2px solid #ddd;
+  padding-left:10px;
+  margin-right:10px;
+}
+.size_btn select  {
+  width:215px;
+  height:40px;
+  border:2px solid #ddd;
+  padding-left:10px;
+}
+.color_size_btn	{margin-top:70px;}
+.color_size_btn li  {
+  float:left;
+  margin-bottom:20px;
+  
+}
+
+/*/>>>>>>>  ADD TO CART & HEART BTN S />>>>>>>>*/
+.add_btn li  {float:left; max-width:310px;}
+.add_btn .add {
+  width:310px;
+  background-color:#1b1b1b;
+  color:#fff;
+  text-align:center;
+  margin-right:10px;
+}
+.add_btn .add a {
+  padding:25px 0;
+  display:inline-block;
+  max-width:310px;
+}
+.add_btn .add a:hover {
+  color:#ccc;
+}
+.add_btn .heart {
+  border:2px solid #ddd;
+  padding:20px 0;
+  color:#fff;
+  text-align:center;
+}
+.add_btn .heart {
+  width:55px;
+}
+
+/*/>>>>>>>  Product DETAIL UL S />>>>>>>>*/
+.sub_detail {
+  position:relative;
+  margin-top:60px;
+}
+.sub_line {
+  border-bottom:1px solid #ddd;
+  height:140px;
+}
+.sub_detail h3  {}
+.sub_list > li  {
+  float:left;
+  margin-right:30px;
+}
+.sub_list > li:last-child {margin-right:0;}
+.sub_list h3  {
+  padding-bottom:10px;
+  background:url(../imgs/list_line_off.jpg) no-repeat 0 bottom;
+}
+.sub_list h3 a  {
+  background:url(../imgs/sub_up.png) no-repeat 100%;
+  padding-right:15px;
+  color:#888;
+}
+.sub_list h3:hover  {
+  background:url(../imgs/list_line_on.jpg) no-repeat 0 bottom;
+}
+.sub_list h3 a:hover {
+  color:#1b1b1b;
+  background:url(../imgs/sub_down.png) no-repeat 100%;
+}
+.sub_list .off {display:none;}
+
+.sub_list .sub_txt  {
+  position:absolute;
+  top:50px;
+  left:0;
+  line-height:25px;
+  font-size:14px;
+  color:#888;
+}
+
+
+/*/>>>>>>>  THUMbNAILS S />>>>>>>>*/
+.main_thum img {width:100%;}
+.main_thum li {opacity:0.5;}
+.main_thum li:nth-child(2) {opacity:1;}
+.main_thum li:hover {
+  opacity:1;
+}
+
+/*/>>>>>>>  Product explanation S />>>>>>>>*/
+.main_explanation	{overflow:hidden;}
+.explanation .description  {margin-top:50px;}
+.description li {
+  float:left;
+  width:130px;
+  text-align:center;
+  padding-bottom:8px;
+  color:#888;
+}
+.description li:hover {
+  color:#1b1b1b;
+  border-bottom:1px solid #1b1b1b;
+}
+.bg_line  {
+	width:100%;
+  height:250px;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.description_txt  {
+  margin:50px 0 40px 20px;
+  max-width:806px;
+}
+.ex ul  {
+  float:left;
+  margin-left:20px;
+}
+.ex li  {margin-right:70px;}
+
+
+
+.description_txt, .ex  {
+  font-size:14px;
+  color:#1b1b1b;
+  line-height:22px;
+  font-weight:500;
+}
+
+/*/>>>>>>>  ASID CONTENT S />>>>>>>>*/
+.products {text-align:center;}
+.products li  {margin-bottom:50px;}
+.products h2 {
+  font-size:20px;
+  letter-spacing:-1px;
+  word-spacing:10px;
+  margin:100px 0 40px 0;
+}
+.products h3 {
+  margin:20px 0 10px 0;
+  font-size:16px;
+}
+.asid_e_name  {
+  font-size:14px;
+  color:#959595;
+}
+.asid_price {
+  margin:30px 0 0 0;
+  font-weight:700;
+}
+.products img   {width:100%;}
+.products li img:hover  {
+  opacity:0.5;
+}
+ 
+
+
+
+
+
+
+
+
+
+/*/>>>>>>>  FOOTER S />>>>>>>>*/
+.footer_bg {
+  background-color:black;
+  height:460px;
+  width:100%;
+  margin-top:100px;
+}
+.footer_wrap {
+}
+.footer_info  {
+  margin-top:80px;
+  color:#fff;
+}
+.footer_wrap img {
+  width:127px;
+  margin-top:80px;
+}
+.footer_info  {}
+.footer_info ul  {
+  float:left;
+  margin-right:80px;
+}
+.footer_info h3  {
+  margin-bottom:35px;
+  font-weight:500;
+}
+.footer_info li  {
+  line-height:28px;
+  font-weight:100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

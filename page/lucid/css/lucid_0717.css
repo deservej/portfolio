@@ -1,0 +1,625 @@
+html, body  {height:100%;}
+body  {font-family:"Noto Sans CJK KR", sans-serif;}
+
+/*===== Font Size (mobile) =====*/
+.sub_tit  {
+  font-size:25px;
+  font-weight:100;
+  letter-spacing:3px;
+  color:#fff;
+  padding-top:80px;
+  text-align:center;
+}
+.tit  {
+  font-size:40px;
+  font-weight:600;
+  letter-spacing:3px;
+  color:#fff;
+  text-align:center;
+}
+.txt  {
+  font-size:16px;
+  font-weight:300;
+  color:#fff;
+  line-height:24px;
+  margin-top:30px;
+  text-align:center;
+}
+.m_txt  {
+  font-size:15px;
+  font-weight:300;
+  color:#fff;
+  line-height:22px;
+  margin-top:20px;
+  text-align:center;
+  text-align:center;
+}
+
+/*===== Font Size (pc) =====*/
+
+@media (min-width:768px)  {
+  .sub_tit  {
+    font-size:50px;
+    font-weight:300;
+    letter-spacing:3px;
+    color:#fff;
+    padding-top:200px;
+    text-align:left;
+  }
+  .tit  {
+    font-size:50px;
+    font-weight:700;
+    letter-spacing:3px;
+    color:#fff;
+    text-align:left;
+  }
+  .txt  {text-align:left;}
+  
+}
+
+/*/>>>>>>>  HEADER SECTION (Mobile) S />>>>>>>>*/
+.gnb_bg {display:none;}
+.m_gnb_bg {display:block;}
+
+.m_gnb_bg {
+  background-color:#000d1b;
+  height:40px;
+  position:fixed;
+  width:100%;
+  z-index:999;
+}
+.m_gnb_logo {
+  display:inline-block;
+  width:120px;
+  float:left;
+  margin:10px;
+}
+.m_gnb_menu {
+  display:inline-block;
+  width:25px;
+  float:right;
+  margin:12px;
+}
+.m_gnb_bg img {width:100%;}
+
+/*=== Header Gnb (pc) ======*/
+@media (min-width:768px)  {
+  .gnb_bg {display:block;}
+  .m_gnb_bg {display:none;}
+  
+  .gnb img  {width:100%;}
+  .gnb_bg {
+    background-color:#000d1b;
+    position:fixed;
+    width:100%;
+    height:80px;  
+    z-index:999;
+  }
+  .gnb_logo {
+    display:inline-block;
+    width:242px;
+  }
+  .gnb nav  {padding-top:34px;}
+  .gnb nav ul  {float:right;}
+  .gnb nav li  {float:left;}
+  .gnb nav li a {
+    margin-left:40px;
+    color:#bbb;
+    font-size:14px;
+    font-weight:500;
+  }
+  .gnb nav li a:hover {color:#fff;}
+
+}
+/*=== Main (mobile) ======*/
+.main_bg  {
+    background:url(../imgs/bg_01.jpg)no-repeat top center;
+    background-size:cover;
+  }
+  .main {
+    text-align:center;
+    padding:230px 0 190px 0;
+    font-size:18px;
+    letter-spacing:6px;
+    color:#fff;
+    width:90%;
+  }
+  .main img {width:100%;}
+  .main h1  {
+    display:inline-block;
+    max-width:830px;
+  }
+  .main_txt {margin:20px 0 25px 0;}
+  .main_btn {
+    display:inline-block;
+    width:35px;
+    opacity:0.6;
+  }
+  .main_btn:hover {opacity:1;}
+
+
+/*=== Main (pc) ======*/
+@media (min-width:768px)  {
+  .main_bg  {
+    background:url(../imgs/bg_01.jpg)no-repeat top center;
+    background-size:cover;
+    height:100%;
+  }
+  .main {
+    height:100%;
+    padding:0;
+  }
+  .main_table {
+    display:table;
+    width:100%;
+    height:100%;
+    text-align:center;
+    font-size:25px;
+    letter-spacing:10px;
+    color:#fff;
+  }
+  .cell {
+    display:table-cell;
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+    padding-top:70px;
+}
+  .main img {width:100%;}
+  .main_txt {margin:40px 0 50px 0;}
+  .main_btn {
+    display:inline-block;
+    width:5.88%;
+  }
+
+}
+
+
+/*=== About (mobile) ======*/
+.about_bg {
+  background:url(../imgs/bg_02.jpg)no-repeat top center;
+  background-size:cover;
+  overflow:hidden;
+}
+.about  {width:90%; text-align:center;}
+.about_txt .txt  {display:none;}
+.about_txt .m_txt {
+  width:200px;
+  display:inline-block;
+}
+.about_img  {
+  width:110%;
+  padding:50px 0 10px 0;
+}
+.about_img img  {width:100%;}
+
+/*=== About (pc) ======*/
+@media (min-width:768px)  {
+  .about_txt .m_txt {display:none;}
+  .about_bg {
+    position:relative;
+    background-size:cover;
+  }
+  .m_txt  {display:none;}
+  .about .txt {
+    display:block;
+    max-width:58.33%;
+  }
+  .about  {}
+  .about_img  {
+    width:66%;
+    float:right;
+    margin:-200px -100px 0 0;
+  }
+  
+}
+
+/*=== Drivetrain (mobile) ======*/
+.drive_icon, .drive_txt .txt,
+.drive_list {display:none;}
+.drive_bg {
+  background-color:black;
+  overflow:hidden;
+}
+.drive  {
+  position:relative;
+  background:url(../imgs/car_move.png)no-repeat -60px 80px;
+  background-size:76.6%;
+  padding-bottom:70%;
+  
+}
+.drive_txt  {
+  width:90%; 
+  margin:0 auto;
+  text-align:center;
+}
+.drive_txt .sub_tit  {
+  color:#ffe2b9;
+  display:block;
+}
+.drive_txt .m_txt {
+  width:240px;
+  display:inline-block;
+}
+.drive_txt .tit {
+  color:#ffe2b9;
+}
+.drive_icon_2 {
+  width:60%;
+  margin:-30px 0px 0 45%;
+}
+.drive_icon_2 img {width:100%;}
+
+
+/*=== Drivetrain (pc) ======*/
+@media (min-width:768px) {
+  .drive_icon, .drive_txt .txt,
+  .drive_list {display:block;}
+  .drive_txt .m_txt, .drive_txt .sub_tit  {display:none;}
+  
+  .drive_bg {background-color:black;}
+  .drive  {
+    background:url(../imgs/car_move.png) no-repeat;
+    background-position:left -100px;
+    background-size:54.94%;
+    padding-bottom:11%;
+  }
+  .drive_top  {padding-top:120px;}
+  .drive_icon {
+    width:25%;
+    float:left;
+    margin-left:20px;
+    padding-top:40px;
+  }
+  .drive_txt  {
+    float:right;
+    margin-top:60px;
+    max-width:480px;
+  }
+  .drive_txt .tit {
+    font-size:30px;
+    color:#ffe2b9;
+  }
+  .drive_list {
+    margin-top:50px;
+    color:#ffe2b9;
+    font-size:14px;
+    font-weight:100;
+    line-height:22px;
+    letter-spacing:1px;
+    text-align:left;
+  }
+  .drive_icon_2 {
+    max-width:42%;
+    float:right;
+  }
+  .drive_icon_2 img  {width:100%;}
+
+}
+
+/*=== feature (mobile) ======*/
+.tab_list .txt, .noise_img_pc {display:none;}
+.feature_bg {background-color:black;}
+.feature img  {width:100%; padding-bottom:40px;}
+.off {display:none;}
+
+.feature  {
+  width:90%; 
+  position:relative;
+  overflow:hidden;
+  padding-bottom:60px;
+}
+.tab_tit  {
+  background:url(../imgs/feature_line_mobile.jpg)no-repeat right 0px;
+  width:100%;
+  background-size:63px;
+  position:relative;
+  padding:5px 0 20px 0;
+}
+.tab_tit:before {
+  content:"";
+  display:block;
+  border-top:1px solid #fadeb5;
+  width:3000px;
+  position:absolute;
+  top:0;
+  right:50px;
+}
+.tab_tit a {
+  color:#777;
+  font-size:20px;
+  font-weight:600;
+}
+.tab_list .m_txt  {
+  margin:0 0 30px 0;
+  text-align:left;
+  
+}
+.tab > li:hover .tab_list {display:block;}
+.tab > li:hover .tab_tit a  {color:#ffe2b9;}
+
+/*=== feature (pc) ======*/
+@media (min-width:768px)  {
+  .tab_list .txt, .noise_img_pc {display:block;}
+  .m_txt, .noise_img_mobile {display:none;}
+  .tab_tit  {background:none;}
+  .tab_tit:before {border:none;}
+  
+  .feature_bg {
+    position:relative;
+    background-color:black;
+  }
+  .feature {padding:8% 0 0px 0;}
+  .tab  {
+    position:relative;
+    background:url(../imgs/feature_line_mobile.jpg)no-repeat right 40px;
+    padding-bottom:80%;
+  }
+  .tab:after  {
+    content:"";
+    display:block;
+    width:1190px;
+    border-top:2px solid #fadeb5;
+    position:absolute;
+    top:40px;
+    right:100px;
+  }
+  .tab > li {float:left;}
+  .tab_tit  {margin-right:40px;}
+  .tab_list {
+    position:absolute;
+    top:80px;
+    left:0;
+  }
+  .tab_list .txt  {
+    margin:0;
+    width:84%;
+  }
+}
+/*=== Auto Show (mobile) ======*/
+.auto_bg  {display:none;}
+
+/*=== Auto Show (pc) ======*/
+@media (min-width:768px)  {
+  .auto_bg  {
+    display:block;
+    background:url(../imgs/bg_05.jpg)no-repeat right bottom;
+    background-size:cover;
+    height:100%;
+    overflow:hidden;
+  }
+  .auto {padding-top:210px;}
+  .auto_txt {
+    max-width:610px;
+    float:left;
+  }
+  .auto_txt .sub_tit {padding:0;}
+  .auto_img {
+    float:right;
+    max-width:570px;
+    margin:-50px -60px 0px 0;
+  }
+  .auto_img img {width:100%;}
+
+}
+
+/*=== Head Lamps (mobile) ======*/
+.lamp .txt, .lamp_thum_txt  {display:none;}
+.lamp .m_txt  {display:block;}
+.lamp img {width:100%;}
+
+.lamp_bg  {
+  background:url(../imgs/bg_06.jpg)no-repeat center top;
+  background-color:black;
+  background-size:140%;
+  
+}
+.lamp {width:90%; text-align:center;}
+.lamp_txt p, .lamp_txt h2 {color:#b8c0cc;}
+.lamp_txt {padding:25% 0 20px 0;}
+.lamp_txt .m_txt  {margin-top:20px;}
+.lamp_img {
+  width:100%;
+  padding-bottom:60px;
+  overflow-x:scroll;
+}
+.lamp_img ul {width:480px;}
+.lamp_img li  {
+  width:160px;
+  float:left;
+  
+}
+ 
+/*=== Head Lamps (pc) ======*/
+@media (min-width:768px)  {
+  .lamp_txt p, .lamp_txt h2 {text-align:center;}
+  .lamp .txt  {
+    display:block;
+    max-width:510px;
+    display:inline-block;
+    color:#fff;
+    margin-bottom:30px;
+  }
+  .lamp .m_txt  {display:none;}
+  .lamp_img {
+    overflow-x:auto; 
+    padding-bottom:40px;
+  }
+  .lamp_img ul {width:100%; }
+  .lamp_img li{width:33.333%; }
+  .lamp_thum_txt  {
+    display:block;
+    color:#c6e4fe;
+    margin:20px 0;
+    font-size:16px;
+  }
+  
+}
+
+
+/*=== Space (mobile) ======*/
+.space .space_off {display:none;}
+
+.space_bg {background-color:#bab5b0;}
+.space  {width:90%;}
+.space_txt  {
+  padding:60px 0 20px 0;
+  text-align:center;
+}
+.space_txt h2, .space_txt span {color:#333;} 
+.s_list {margin:0 -5px;}
+.s_imgs img {
+  width:100%;
+  margin-bottom:5px;
+}
+.s_list li  {width:50%;}
+.s_imgs a:hover  {opacity:0.6;}
+
+/*=== Space (pc) ======*/
+@media (min-width:768px)  {
+  .space .space_off {display:block;}
+  .space_txt .tit  {
+    text-align:center;
+    font-weight:500;
+    padding:120px 0 10px 0;
+  }
+  .s_img_right .s_list li  {width:33.33%;}
+  .s_img_bottom {padding:0 5px 60px 5px;}  
+}
+
+
+/*=== Last Page (mobile) ======*/
+.reserve_txt_en, .reserve_txt_ko {display:none;}
+.reserve, .email  {text-align:center;}
+
+.last_bg  {background-color:black;}
+.reserve  {
+  background:url(../imgs/bg_07.jpg)no-repeat center top;
+  background-size:cover;
+}
+.reserve a ,.email input[type="text"] {
+  display:inline-block;
+  width:240px;
+  border:1px solid #aaa;
+  margin:50px 0;
+  padding:8px 0;
+  color:#bbb;
+  font-size:14px;
+  font-weight:300;
+}
+.email input[type="text"] {
+  background-color:rgba(0,0,0,0);
+  text-align:center;
+}
+.reserve a:hover ,.email input:hover  {
+  color:#fff;
+  border-color:#fff;
+}
+.email  {
+  background:url(../imgs/bg_08.jpg)no-repeat center top;
+  background-size:cover;
+}
+/*=== Footer (mobile) ======*/
+.footer_pc  {display:none;}
+
+.footer_mobile  {
+  width:60%;
+  text-align:center;
+  padding:40px 0;
+  opacity:.5;
+}
+.footer_m_txt {
+  color:#fff;
+  font-size:14px;
+  font-weight:100;
+  padding:10px 0 30px 0;
+}
+.mobile_logo img  {width:100%;}
+.mobile_logo  {display:inline-block;}
+.footer_m_icon  {}
+.footer_m_icon li {
+  display:inline-block;
+  margin:0 10px;
+}
+.footer_m_icon li a {color:#fff;}
+
+
+/*=== Last Page (pc) ======*/
+@media (min-width:768px)  {
+  .reserve_txt_en, .reserve_txt_ko {
+    display:block;
+    color:#fff;
+    font-size:20px;
+  }
+  .reserve_txt_en {
+    padding:140px 0 5px 0;
+    color:#aaa;
+  }
+  .reserve a ,.email input[type="text"] {
+    margin:30px 0 60px 0;
+  }
+  
+}
+
+/*=== Footer (pc) ======*/
+@media (min-width:768px)  {
+  .footer_pc  {
+    display:block;
+    color:#ddd;
+    font-size:15px;
+    font-weight:100;
+    line-height:26px;
+    padding:40px 0 220px 0;
+  }
+  .footer_pc_w  {max-width:830px;}
+  .footer .site a {}
+  .footer_mobile  {display:none;}
+  .footer_pc_w ul  {
+    float:left;
+    margin-right:100px;
+    vertical-align:text-top;
+    margin-top:40px;
+  }
+  .sns  {position:relative; padding-left:30px;}
+  .sns li:before  {
+    content:"";
+    display:block;
+    background:url(../imgs/lucid_sns.jpg)no-repeat 0 4px;
+    background-size:20px;
+    width:24px;
+    height:24px;
+    position:absolute;
+    left:0;
+  }
+  .sns li:nth-child(2):before{
+    background:url(../imgs/lucid_sns.jpg)no-repeat 0 -15px;
+    background-size:20px;
+  }
+  .sns li:nth-child(3):before{
+    background:url(../imgs/lucid_sns.jpg)no-repeat 0 -37px;
+    background-size:20px;
+  }
+  .sns li:nth-child(4):before{
+    background:url(../imgs/lucid_sns.jpg)no-repeat 0 -59px;
+    background-size:20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

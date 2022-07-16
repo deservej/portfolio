@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143288567-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143288567-1');
+  </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/module.css">
+  <!-- Script Code [S] -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    
+  </head>
+  <body>
+  
+  <header class="gnb-wrap">
+    <h2 class="main_logo">
+			<!--
+      <img src="../images/b_logo.png" alt="b로고">
+			-->
+    </h2>
+    <a href="javascript:;" class="btn-menu"></a>
+    <!-- menu click S --->
+    <nav class="nav-menu">
+      <div class="table">
+        <div class="cell">
+          <ul class="menu">
+            <li><a href="../page/web.html"><span>Web Site</span></a></li>
+            <li><a href="../page/detail_page.html"><span>Page</span></a></li>
+            <li><a href="../page/sns.html"><span>SNS/Banner</span></a></li>
+            <li><a href="../page/package.html"><span>Package</span></a></li>
+            <!-- <li><a href="../page/poster.html"><span>Poster</span></a></li> -->
+          </ul>
+          <div class="info">
+            <p>deservej@gmail.com</p>
+          </div>
+        </div>  
+      </div>
+    </nav>
+  </header>
+
+    
+  <script>
+    /* btn */
+    const btn_menu = document.querySelector('.btn-menu');
+    const nav_menu = document.querySelector('.nav-menu');
+    
+    btn_menu.addEventListener('click', function(){
+      btn_menu.classList.toggle('active');
+    });
+    
+    btn_menu.addEventListener('click', function(){
+      nav_menu.classList.toggle('menu-active');
+    });
+  </script>
+
+    
+  </body>  
+</html>    

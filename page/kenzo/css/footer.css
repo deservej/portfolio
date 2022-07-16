@@ -1,0 +1,48 @@
+/*/>>>>>>>  footer (pc) S />>>>>>>>*/
+.footer img {width:100%;}
+
+.footer_bg  {background-color:black; overflow:hidden;}
+.footer {padding:80px 0 180px 0; }
+.footer .footer_logo {
+  display:inline-block;
+  width:160px;
+  float:left;
+  margin-right:180px;
+}
+.footer ul  {
+  float:left;
+  margin-left:5%;
+}
+.footer ul h3 {
+  color:#fff;
+  font-weight:500;
+  margin-bottom:40px;
+}
+.footer li  {}
+.footer li a  {
+  color:#ccc;
+  font-size:14px;
+  line-height:24px;
+}
+.footer_sns ul {
+  width:100%;
+  margin:30px 0;
+}
+.footer_sns li  {float:left; margin-right:10px;}
+.footer_sns a {
+  display:inline-block;
+  background:url(../imgs/lucid_sns.jpg)no-repeat center top;
+  width:20px;
+  height:20px;
+}
+.footer_sns li:nth-child(2) a  {
+  background:url(../imgs/lucid_sns.jpg)no-repeat center -24px;
+}
+.footer_sns li:nth-child(3) a  {
+  background:url(../imgs/lucid_sns.jpg)no-repeat center -48px;
+}
+.footer_sns li:nth-child(4) a  {
+  background:url(../imgs/lucid_sns.jpg)no-repeat center -73px;
+}
+
+

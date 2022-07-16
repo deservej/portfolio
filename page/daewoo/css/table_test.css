@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(module.css);
+@import url(footer.css);
+
+html, body  {height:100%;}
+body  {font-family:"Noto Sans CJK KR", sans-serif; color:#111; letter-spacing:-1px;}
+
+/* =================================
+        COMMONS Text S (Mobile)
+   ================================= */
+.tit {
+  padding:70px 0 35px 0;
+  font-size:22px;
+  color:#1a4975;
+  font-family:700;
+  text-align:center;
+}
+
+
+
+
+/* =================================
+     DAEWOO 3BULIDING S (Mobile)
+   ================================= */
+.business li  {
+  height:100px;
+  background-color:rgba(0,0,0,0.1);
+}
+.business li a  {
+  display:block;
+  background:url(../imgs/buliding_2.jpg)no-repeat;
+  height:100px;
+  
+}
+
+
+/*
+
+.buliding li  {
+  height:300px;
+  border:1px solid red;
+}
+.buliding li a  {
+  display:block;
+  background:url(../imgs/buliding_1.jpg)no-repeat;
+  background
+}
+
+
+
+
+
+/*
+.buliding li:nth-child(1) a {
+  background:url(../imgs/buliding_1.jpg)no-repeat center;
+  background-size:cover;
+}
+.buliding li:nth-child(2) a {
+  background:url(../imgs/buliding_2.jpg)no-repeat center;
+  background-size:cover;
+}
+.buliding li:nth-child(3) a {
+  background:url(../imgs/buliding_3.jpg)no-repeat center;
+  background-size:cover;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

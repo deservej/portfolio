@@ -1,0 +1,500 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(module.css);
+@import url(footer.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body  {height:100%;}
+body  {
+  font-family:"Noto Sans KR","Lato", sans-serif;
+  color:#333;
+  font-weight:300;
+}
+
+/* =================================
+        COMMONS Text S (Mobile)
+   ================================= */
+.tit {
+  padding:70px 0 35px 0;
+  font-size:18px;
+  color:#4379a9;
+  font-weight:700;
+  text-align:center;
+}
+@media (min-width:768px)  {
+  .tit {
+    font-size:22px;
+  }
+}
+/* =================================
+        COMMONS fade (Mobile)
+   ================================= */
+.fade_5s  {
+  -webkit-transition:all 1s ease-in-out;
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+}
+
+/* ============================
+      MAIN BANNER S (Mobile)
+   ============================ */
+
+.main_bnr  {
+  width:100%;
+  height:420px;
+  position:relative;
+  overflow:hidden;
+}
+
+.bnr_img  { 
+  width:7000px;
+  position:absolute;
+}
+.bnr_img li  {float:left;}
+.bnr_img li img  {width:46%;}
+
+/* ============================
+      MAIN BANNER S (PC)
+   ============================ */
+@media (min-width:768px)  {
+  .main_bnr  {
+    width:100%;
+    height:920px;
+    position:relative;
+    overflow:hidden;
+  }
+  .bnr_img  { 
+    width:7000px;
+    position:absolute;
+  }
+  .bnr_img li img  {width:100%;}
+}
+
+
+/*=== Bnr TEXT S (Mobile) ===*/
+.bnr_text {
+  position:absolute;
+  top:140px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  text-align:center;
+  color:#fff;
+}
+.bnr_sub  {font-size:20px;}
+.bnr_tit  {
+  font-size:35px;
+  padding:10px 0 24px 0;
+}
+.bnr_txt  {display:none;}
+.bnr_link {
+  font-size:14px;
+  border:1px solid #fff;
+  padding:4px 24px 4px 24px;
+}
+.bnr_link:hover  {
+  background-color:rgba(250,250,250,0.4);
+}
+
+/*=== Bnr TEXT S (PC) ===*/
+@media (min-width:768px) {
+  .bnr_text {
+    position:absolute;
+    width:1120px;
+    top:340px;
+    text-align:left;
+    color:#fff;
+  }
+  .bnr_sub  {font-size:20px;}
+  .bnr_tit  {
+    font-size:55px;
+    line-height:60px;
+    padding:10px 0 24px 0;
+  }
+  .bnr_txt  {
+    display:block;
+    font-size:18px;
+    line-height:24px;
+    margin-bottom:40px;
+  }
+  .bnr_link {
+    font-size:14px;
+    border:1px solid #fff;
+    padding:0px 24px 4px 24px;
+  }
+  .bnr_link:hover  {
+    background-color:rgba(250,250,250,0.4);
+  }
+}
+
+
+/*=== Bnr BTN S (Mobile) ===*/
+.main_slide_btn {
+  position:absolute;
+  bottom:90px;
+  width:90%;
+  left:0;
+  right:0;
+  margin-right:auto;
+  margin-left:auto;
+}
+.main_slide_btn ul  {text-align:center;}
+.main_slide_btn li  {display:inline-block;}
+.main_slide_btn li:after  {
+  content:"";
+  display:inline-block;
+  padding:2px 10px;
+  border:1px solid #fff;
+}
+.main_slide_btn li:nth-child(1):after  {
+  background-color:rgba(250,250,250,1);
+}
+.main_slide_btn span  {display:inline-block; display:none;}
+
+
+/*=== Bnr BTN S (PC) ===*/
+@media (min-width:768px)  {
+  .main_slide_btn {
+    position:absolute;
+    max-width:1920px;
+    margin:0 auto;
+    top:380px;
+    right:0;
+  }
+  .main_slide_btn ul  {text-align:right;}
+  .main_slide_btn li  {
+    display:block;
+    margin-bottom:20px;
+  }
+  .main_slide_btn li:after  {
+    content:"";
+    display:inline-block;
+    padding:16px 2px;
+    border:1px solid #fff;
+  }
+  .main_slide_btn li:nth-child(1):after  {
+    background-color:rgba(250,250,250,1);
+  }
+  .main_slide_btn span  {
+    display:inline-block;
+    color:#fff;
+    font-size:16px;
+    line-height:18px;
+  }
+}
+
+
+/* ============================
+       BUSINESS S (Mobile)
+   ============================ */
+.business img {width:100%;}
+.business {
+  width:80%;
+  margin:0 auto;
+}
+.business ul li {
+  padding:0;
+  text-align:center;
+}
+.business .busi_img  {
+  display:inline-block;
+  overflow:hidden;
+}
+/*=== Business Text S (Mobile) ===*/
+.busi_wrap_txt  {margin:20px 0 0 0;}
+.busi_sub {
+  font-size:18px;
+  font-family:800;
+}
+.busi_en  {
+  font-size:15px;
+  font-family:800;
+  color:#777;
+  display:inline-block;
+  padding:10px 0 15px 0; 
+}
+.busi_txt {
+  width:90%;
+  margin:0 auto;
+  word-break:keep-all;
+  font-size:16px;
+  font-weight:300;
+  line-height:24px;
+}
+
+.busi_link  {
+  display:inline-block;
+  font-size:16px;
+  color:#666;
+  font-weight:800;
+  margin:20px 0;
+}
+
+/* ============================
+       BUSINESS S (PC)
+   ============================ */
+@media (min-width:768px) {
+  .business {
+    background:url(../imgs/busi_bg_1.jpg)no-repeat top center;
+    background-size:cover;
+    background-attachment:fixed;
+    padding-bottom:60px;
+  }
+  .busi_tit {padding:100px 0 60px 0;}
+  .business ul li {
+    padding:0 10px;
+    text-align:center;
+  }
+  .business .busi_img  {
+    display:inline-block;
+    height:160px;
+  }
+  /*=== Business Text S (PC) ===*/
+  .busi_wrap_txt  {height:160px;}
+  .busi_link  {
+    display:inline-block; 
+    margin:10px 0;
+  }
+  
+}
+
+
+/* ============================
+     INTRODUCTION S (Mobile)
+   ============================ */
+.intro_bg {
+  background:url(../imgs/intro_bg_2.jpg)no-repeat top center;
+  background-size:cover;
+  background-attachment:fixed;
+}
+/*
+.intro_opacity  {background-color:rgba(250,250,250,0.9);}
+*/
+.intro  {
+  width:90%;
+  margin:0 auto;
+  text-align:center;
+  margin-top:60px;
+}
+
+.intro_text  {margin-top:40px;}
+.intro_text_tit {
+  max-width:240px;
+  display:inline-block;
+  font-size:25px;
+  line-height:32px;
+  letter-spacing:-1px;
+  font-weight:600;
+  color:#1a4975;
+}
+.intro_subtit {
+  font-size:14px;
+  font-weight:700;
+  color:#1a4975;
+  padding:10px 0 20px 0;
+}
+.intro_img  {
+  max-width:210px;
+  margin:0 auto;
+  padding-top:20px;
+}
+.intro_img img  {width:100%;}
+.intro_txt  {
+  font-size:15px;
+  line-height:23px;
+  padding:30px 0 60px 0;
+}
+
+/*=== INTRODUCTION S (PC) ===*/
+@media (min-width:768px)  {
+  .intro  {
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+  }
+
+  .intro_text  {margin-top:40px;}
+  .intro_text_tit {
+    max-width:100%;
+    display:inline-block;
+    font-size:35px;
+    line-height:32px;
+    letter-spacing:-1px;
+    font-weight:600;
+    color:#1a4975;
+  }
+  .intro_subtit {
+    font-size:18px;
+    font-weight:600;
+    color:#1a4975;
+    padding:20px 0 30px 0;
+  }
+  .intro_img  {
+    max-width:281px;
+    margin:0 auto;
+    padding-top:20px;
+  }
+  .intro_img img  {width:100%;}
+  .intro_txt  {
+    max-width:680px;
+    display:inline-block;
+    font-size:18px;
+    font-weight:500;
+    line-height:30px;
+    padding:30px 0 60px 0;
+  }
+}
+
+
+
+
+/* ============================
+     GALLERY S (Mobile)
+   ============================ */
+.col4, .col3  {
+  float:left;
+  box-sizing:border-box;
+  padding:0;
+}
+.col4 {width:100%; height:100%}
+.col3 {width:100%;}
+
+.gallery  {
+  width:65%;
+  position:relative;
+}
+.gallery a  {width:100%;}
+
+.gall_left a {position:relative;}
+.gall_right a {position:relative;}
+.gall-bottom  {width:100%;}
+
+
+.gall_content  { 
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  color:#fff;
+  font-weight:600;
+  font-size:14px;
+}
+.gall_table {
+  opacity:0;
+  display:table;
+  width:100%;
+  height:100%;
+  background:rgba(75,148,203,.6);
+}
+.gall_table:hover  {
+  opacity:1;
+}
+.gall_table, .gall_table:hover  {
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+
+.gall_table .gall_cell img {
+  width:22px;
+  margin-top:10px;
+}
+.gall_cell  {
+  display:table-cell;
+  vertical-align:middle;
+}
+.gallery a img {width:100%;}
+
+
+/*=== GALLERY S (PC)===*/
+@media (min-width:768px)  {
+  .gallery a img {margin-bottom:0px;}
+  .gall_right li  {margin:0 0 20px 0;}
+  .gall_left  {
+    width:41.66%;
+    float:left;
+    box-sizing:border-box;
+    padding:0 10px;
+  }
+    .gall-top ul, .gall-bottom ul {
+    float:right;
+    width:58.33%;
+  }
+  .col4, .col3  {
+    float:left;
+    box-sizing:border-box;
+    padding:0 10px;
+  }
+  .col4 {width:57.14%;}
+  .col3 {width:42.85%;}
+}
+
+
+
+/* =================================
+     DAEWOO 3BULIDING S (Mobile)
+   ================================= */
+.buliding {
+  width:100%;
+  margin-top:50px;
+  text-align:center;
+}
+.buliding li  {padding:0;}
+.buliding li a {
+  display:block;
+  height:300px;
+  color:#fff;
+}
+
+.buliding li:nth-child(1) a {
+  background:url(../imgs/buliding_1.jpg)no-repeat center;
+  background-size:cover;
+}
+.buliding li:nth-child(2) a {
+  background:url(../imgs/buliding_2.jpg)no-repeat center;
+  background-size:cover;
+}
+.buliding li:nth-child(3) a {
+  background:url(../imgs/buliding_3.jpg)no-repeat center;
+  background-size:cover;
+}
+
+.buliding li:hover .table  {
+  background-color:rgba(0,0,0,0.5);
+  -webkit-transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+       -o-transition:all .3s ease-in-out;
+          transition:all .3s ease-in-out;
+}
+.table  {
+  display:table;
+  width:100%;
+  height:100%;
+  -webkit-transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+       -o-transition:all .3s ease-in-out;
+          transition:all .3s ease-in-out;
+}
+.buli_cell {
+  display:table-cell;
+  vertical-align:middle;
+  font-size:18px;
+  line-height:30px;
+  text-shadow:2px 2px 5px #111; 
+}
+
+
+/* =================================
+        DAEWOO 3BULIDING S (PC)
+   ================================= */
+@media (min-width:768px)  {
+  .buliding  {}
+  .buliding li a {height:450px;}
+}

@@ -1,0 +1,79 @@
+
+/*  [COMMON Package_Page] S  */
+.text-container ul, .btn-web ul {display:inline-block;}
+
+.intro-wrap  {
+  background:url(../images/web/kenzo_bk.jpg)no-repeat top center;
+  height:100vh;
+  background-size:cover;
+  background-attachment:fixed;
+  text-align:center;
+}
+
+.web-text {
+  height:100vh;
+  color:#000;
+  text-align:center;
+  background-color:#fff;
+  margin-bottom:2.0rem;
+}
+.text-tit {font-size:7.5rem;}
+.text-tit p {letter-spacing:-0.4rem;}
+.text-container  {
+  font-size:18px;
+  max-width:490px;
+  margin:0 auto;
+}
+
+.text-container li  { 
+  float:left;
+  margin:7.0rem 2.0rem 3.0rem 2.0rem;
+  font-size:1.6rem;
+  border-bottom:2px solid #000;
+}
+.text-container p {
+  line-height:24px;
+  letter-spacing:-0.1rem;
+  margin-bottom:7.0rem;
+}
+.web-img-tit p  {
+  color:#fff;
+  font-size:3.0rem;
+  margin:120px 0 30px 0;
+}
+
+.btn-web li:last-child {margin-left:2.0rem;}
+.btn-web li  {
+  float:left;
+  font-size:1.6rem;
+  border:1px solid #000;
+}
+.btn-web li a {
+  font-weight:600;
+  padding:1.5rem 2.5rem;
+  -webkit- transition:all .3s;
+  -moz-    transition:all .3s;
+  -o-      transition:all .3s;
+           transition:all .3s;
+}
+.btn-web li a:hover {
+  background-color:#000;
+  color:#fff;
+  -webkit- transition:all .3s;
+  -moz-    transition:all .3s;
+  -o-      transition:all .3s;
+           transition:all .3s;
+}
+/*=== FadeIn Effect ===*/
+.fade-1 {display:none;}
+.fade-2 {
+  opacity:0;
+  max-width:100%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,453 @@
+
+html, body    {
+  font-family:"Noto Sans CJK KR",sans-serif;
+  height:100%;
+  font-size:16px;
+}
+
+/*======= Common Text S =========*/
+.bnr_bg,.intro_bg,.whats, {width:100%;}
+
+.txt {
+  font-size:16px;
+  line-height:25px;
+}
+.name_tit {
+  font-size:24px;
+  font-weight:700;
+}
+.price  {
+  font-size:20px;
+  font-weight:700;
+  margin:10px 0 20px 0;
+}
+.shop_move  {
+  font-size:14px;
+  font-weight:700;
+}
+.woman_shop_move  {
+  display:inline-block;
+  font-size:14px;
+  font-weight:700;
+  background:url(../imgs/woman_icon1.png)no-repeat right;
+  padding-right:30px;
+  margin:30px 0;
+  color:#f44764;
+}
+.man_shop_move  {
+  display:inline-block;
+  font-size:14px;
+  font-weight:700;
+  background:url(../imgs/man_icon2.png)no-repeat right;
+  padding-right:30px;
+  margin:30px 0;
+  color:#cbf7ff;
+}
+
+/*======= Common Hover S =========*/
+/*--- Btn hover 
+  (main,collection,magazine section)
+---*/
+.bnr_txt a:hover, .collection_bg a:hover,
+.magazine_bg a:hover
+{background:rgba(250,250,250,.3);}
+
+
+/*/>>>>>>>  HEADER (pc) S />>>>>>>>*/
+.gnb_header {
+  width:100%;
+  background-color:black;
+  z-index:999;
+}
+.gnb_header a {color:#fff;}
+.gnb_top  {
+  padding-top:20px;
+  font-size:14px;
+}
+.gnb_top ul, .gnb_main ul  {float:right;}
+.gnb_top li {
+  float:left;
+  margin-left:30px;
+}
+.gnb_main {padding:50px 0 30px 0;}
+.gnb_main img {
+  width:160px;
+  margin-top:-50px;
+}
+.gnb_main li {
+  float:left;
+  margin-left:40px;
+}
+
+/*/>>>>>>>  Main (pc) S />>>>>>>>*/
+.bnr_bg {
+  background:url(../imgs/banner_bg_01.jpg)no-repeat center top;
+  background-size:cover;
+  height:900px;
+  text-align:center;
+} 
+.bnr_table  {
+  display:table;
+  width:100%;
+  height:100%;
+}
+.bnr_txt  {
+  display:table-cell;
+  vertical-align:middle;
+  color:#fff;
+  width:100%;
+  height:100%;
+}
+.bnr_txt h1 {font-size:50px; line-height:60px;}
+.bnr_txt a  {
+  display:inline-block;
+  width:240px;
+  border:1px solid #fff;
+  padding:16px 0;
+  margin-top:50px;
+}
+
+
+/*/>>>>>>>  Intro (pc) S />>>>>>>>*/
+.intro .col-6 {padding:0;}
+
+.intro_bg {
+  background:url(../imgs/content_01_bg.png)no-repeat;
+  background-size:cover;
+  padding-bottom:150px;
+}
+.intro  {
+  background-color:#fff;
+  max-width:1180px;
+  margin:-150px auto 0 auto;
+}
+.intro_txt  {
+  max-width:420px;
+  padding:25% 20px 0px 13.33%;
+}
+.intro_txt h2 {
+  font-size:55px;
+  font-weight:300; 
+}
+.intro_sub {
+  display:block;
+  margin:20px 0 60px 0;
+  font-weight:500;
+  font-size:20px;
+}
+.intro_list li  {
+  float:left;
+  border-bottom:1px solid #666;
+  color:#666;
+  margin:75px 30px 30px 0;
+  padding-bottom:5px;
+  font-size:14px;
+  font-weight:500;
+} 
+.intro_img  {
+  display:table;
+  width:100%;
+  height:641px;
+}
+.intro_cell {
+  display:table-cell;
+  vertical-align:middle;
+}
+.intro_img img  {width:100%;}
+
+
+/*/>>>>>>>  What's New (pc) S />>>>>>>>*/
+.whats img  {width:100%;}
+
+.whats_main {
+  padding-bottom:10px;
+  margin:0 20px 40px 0px;
+}
+.woman_img  {
+  position:relative;
+  display:inline-block;
+}
+.woman_img img  {
+  width:100%;
+  position:relative;
+  border:6px solid #f44764;
+  box-sizing:border-box;
+  z-index:999;
+}
+.woman_img:after  {
+  content:"";
+  display:block;
+  position:absolute;
+  top:18px;
+  left:18px;
+  border:2px solid #f44764;
+  box-sizing:border-box;
+  width:98%;
+  height:98.5%;
+}
+.whats_txt  {
+  max-width:410px;
+  margin-left:60px;
+}
+.whats_txt .sub_txt {
+  font-size:25px;
+  font-weight:700;
+  color:#eb0000;
+}
+.whats_txt h2 {
+  margin:20px 0 140px 0;
+}
+.whats_txt .name_tit,
+.whats_txt .price  {
+  color:#f44764;
+}
+
+.whats_thum {
+  position:relative;
+  margin-bottom:60px;
+}
+.woman_side {
+  width:23.33%;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+
+/*/>>>>>>>  Man (pc) S />>>>>>>>*/
+.man img  {width:100%;}
+.man_main .man_big,.man_main .man_txt_wrap  {
+  float:right; 
+  padding:0;
+}
+.man_txt .name_tit,.man_txt .price  {color:#cbf7ff;} 
+.man_bg {
+  background:url(../imgs/content_02_bg.jpg )no-repeat;
+  background-color:#0a6d7f;
+}
+.man_img  {
+  display:inline-block;
+  position:relative;
+  margin-top:50px;
+}
+.man_img img  {
+  border:6px solid #00accb;
+  box-sizing:border-box;
+  position:relative;
+  z-index:99;
+}
+.man_img:after  {
+  content:"";
+  display:block;
+  position:absolute;
+  border:2px solid #00accb;
+  box-sizing:border-box;
+  width:98%;
+  height:98.5%;
+  top:18px;
+  right:18px;
+}
+
+.man_txt  {padding:280px 40px 0 40px;}
+.man_txt .txt {
+  font-weight:300;
+  color:#fff;
+}
+.man_thum {
+  position:relative;
+  width:100%;
+}
+.man_thum ul {
+  width:66.66%;
+  float:right;
+  margin:50px 0;
+}
+.man_thum li  {
+  width:25%;
+  float:left;
+  padding:0 10px;
+  box-sizing:border-box;
+}
+.man_thum li img  {width:100%;}
+.man_side {
+  width:23.33%;
+  position:absolute;
+  bottom:0px;
+  left:0;
+}
+
+
+/*/>>>>>>>  La Collection (pc) S />>>>>>>>*/
+.Memento_bg {
+  background:url(../imgs/lacollection.png)no-repeat center bottom;
+  background-size:contain;
+  padding-bottom:54%;
+}
+.Memento  {
+  text-align:center;
+  color:#e3150d;
+}
+.Memento_txt  {width:100%;}
+.Memento h2  {
+  font-size:50px;
+  padding:140px 0 50px 0;
+}
+.Memento .txt {
+  max-width:570px;
+  display:inline-block;
+  font-weight:400;
+}
+
+/*/>>>>>>>  Best Item (pc) S />>>>>>>>*/
+.item_bg  {
+  background:url(../imgs/bestitem_pattern.png);
+  overflow:hidden;
+}
+.item {
+  padding:130px 0 110px 0;
+  text-align:center;
+}
+.item_txt .sub_txt  {
+  font-size:20px;
+  font-weight:600;
+  color:#0095f3;
+  margin:30px 0 5px 0;
+}
+.item_txt .txt  {
+  max-width:580px;
+  margin-top:30px;
+  display:inline-block;
+}
+.item_img {
+  margin:110px 0 40px 0;
+}
+.item_img li a {
+  display:inline-block;
+  background-color:#fff;
+  margin-bottom:20px;
+  box-shadow:1px 3px 10px rgba(0,0,0,.1);
+}
+.item_img li img  {width:100%;}
+.item_txt {
+  font-size:14px;
+  font-weight:500;
+  color:#999;
+  margin-top:5px;
+}
+.item_price {
+  margin:30px 0;
+  font-weight:600;
+} 
+
+/*/>>>>>>>  Collection, Magazine (pc) S />>>>>>>>*/
+.cm_bg .collection_bg, .cm_bg .magazine_bg  {padding:0;}
+.collection_bg  {
+  background:url(../imgs/collection_img_01.jpg)no-repeat top center;
+  text-align:center;
+  height:520px;
+}
+.coll_table {
+  display:table;
+  width:100%;
+  height:100%;
+}
+.coll_cell  {
+  display:table-cell;
+  vertical-align:middle;
+}
+.collection_bg a  {
+  display:inline-block;
+  width:220px;
+  padding:14px 0;
+  color:#fff;
+  border:1px solid #fff;
+}
+
+.magazine_bg  {
+  background:url(../imgs/magzine_img_01.jpg)no-repeat top center;
+  text-align:center;
+  height:520px;
+}
+.maga_table {
+  display:table;
+  width:100%;
+  height:100%;
+}
+.maga_cell  {
+  display:table-cell;
+  vertical-align:middle;
+}
+.magazine_bg a  {
+  display:inline-block;
+  width:220px;
+  padding:14px 0;
+  color:#fff;
+  border:1px solid #fff;
+}
+
+
+/*/>>>>>>>  footer (pc) S />>>>>>>>*/
+.footer img {width:100%;}
+
+.footer_bg  {background-color:black;}
+.footer {padding:80px 0 180px 0;}
+.footer .footer_logo {
+  display:inline-block;
+  width:160px;
+  float:left;
+  margin-right:180px;
+}
+.footer ul  {
+  float:left;
+  margin-left:5%;
+}
+.footer ul h3 {
+  color:#fff;
+  font-weight:500;
+  margin-bottom:40px;
+}
+.footer li  {}
+.footer li a  {
+  color:#ccc;
+  font-size:14px;
+  line-height:24px;
+}
+.footer_sns ul {
+  width:100%;
+  margin:30px 0;
+}
+.footer_sns li  {float:left; margin-right:10px;}
+.footer_sns a {
+  display:inline-block;
+  background:url(../imgs/lucid_sns.jpg)no-repeat center top;
+  width:20px;
+  height:20px;
+}
+.footer_sns li:nth-child(2) a  {
+  background:url(../imgs/lucid_sns.jpg)no-repeat center -24px;
+}
+.footer_sns li:nth-child(3) a  {
+  background:url(../imgs/lucid_sns.jpg)no-repeat center -48px;
+}
+.footer_sns li:nth-child(4) a  {
+  background:url(../imgs/lucid_sns.jpg)no-repeat center -73px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
