@@ -82,6 +82,7 @@
 .text-container p {
   line-height:28px;
   margin-bottom:7.0rem;
+  word-break: keep-all;
 }
 .web-img-tit p  {
   color:#fff;
